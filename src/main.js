@@ -147,9 +147,80 @@ function initStorePage() {
   }
 }
 
+/**
+ * Parallax scrolling effect for banner images.
+ * Smoothly shifts images at a slower rate than page scrolling,
+ * inspired by horr.framer.website.
+ */
+function initParallax() {
+  const parallaxItems = document.querySelectorAll('.parallax-wrap');
+  if (!parallaxItems.length) return;
+
+  // Respect user preference for reduced motion
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+    return;
+  }
+
+  let ticking = false;
+
+  function updateParallax() {
+    const viewportHeight = window.innerHeight;
+
+    parallaxItems.forEach((wrap) => {
+      const rect = wrap.getBoundingClientRect();
+      // Only compute and transform when container is visible in viewport
+      if (rect.bottom > 0 && rect.top < viewportHeight) {
+        const img = wrap.querySelector('.parallax-img');
+        if (img) {
+          const elementCenter = rect.top + rect.height / 2;
+          const viewportCenter = viewportHeight / 2;
+          // Normalizes distance from screen center: -1 (top) to +1 (bottom)
+          const scrollProgress =
+            (elementCenter - viewportCenter) / (viewportHeight / 2);
+          // Pronounced, smooth 75px translation offset for a strong parallax feel
+          const translateY = -scrollProgress * 75;
+          img.style.transform = `translate3d(0, ${translateY.toFixed(1)}px, 0) scale(1.15)`;
+        }
+      }
+    });
+
+    ticking = false;
+  }
+
+  window.addEventListener(
+    'scroll',
+    () => {
+      if (!ticking) {
+        window.requestAnimationFrame(updateParallax);
+        ticking = true;
+      }
+    },
+    { passive: true },
+  );
+
+  window.addEventListener(
+    'resize',
+    () => {
+      if (!ticking) {
+        window.requestAnimationFrame(updateParallax);
+        ticking = true;
+      }
+    },
+    { passive: true },
+  );
+
+  // Initial calculation on load
+  updateParallax();
+}
+
+function init() {
+  initStorePage();
+  initParallax();
+}
+
 // Run initialization when DOM is ready
 if (document.readyState === 'loading') {
-  document.addEventListener('DOMContentLoaded', initStorePage);
+  document.addEventListener('DOMContentLoaded', init);
 } else {
-  initStorePage();
+  init();
 }

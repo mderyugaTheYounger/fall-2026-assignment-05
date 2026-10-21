@@ -26,9 +26,18 @@
 
     <!-- Main Content -->
     <main class="main-content">
-      <!-- Hero Banner -->
-      <section class="hero-section">
-        <div class="container">
+      <!-- Hero Banner (Full Width with Text Overlay) -->
+      <section class="hero-section full-width-hero parallax-wrap">
+        <div class="hero-bg-media">
+          <img
+            src="./images/main-banner.jpg"
+            alt="CardGallery - Constellations Hero Banner"
+            class="banner-img parallax-img"
+            loading="eager"
+          />
+          <div class="hero-overlay"></div>
+        </div>
+        <div class="container hero-content">
           <span class="hero-badge">Curated Deck Collection</span>
           <h1 class="hero-title">
             Welcome to <span class="highlight">CardGallery</span>
@@ -45,43 +54,6 @@
             <a href="./about.html" class="btn btn-outline"
               >About Our Collection</a
             >
-          </div>
-          <!-- Hero Placeholder Image (1200x480) -->
-          <div class="hero-image-wrap">
-            <svg
-              class="placeholder-svg"
-              width="1200"
-              height="480"
-              viewBox="0 0 1200 480"
-              xmlns="http://www.w3.org/2000/svg"
-              role="img"
-              aria-label="PLACEHOLDER IMAGE"
-            >
-              <rect width="100%" height="100%" fill="#141414" />
-              <rect
-                x="20"
-                y="20"
-                width="1160"
-                height="440"
-                fill="none"
-                stroke="#2a2a2a"
-                stroke-width="2"
-                stroke-dasharray="6,6"
-              />
-              <text
-                x="50%"
-                y="50%"
-                fill="#888888"
-                font-family="'Fragment Mono', monospace"
-                font-size="24"
-                font-weight="bold"
-                letter-spacing="5"
-                dominant-baseline="middle"
-                text-anchor="middle"
-              >
-                PLACEHOLDER IMAGE
-              </text>
-            </svg>
           </div>
         </div>
       </section>
@@ -262,5 +234,8 @@
         </div>
       </div>
     </footer>
+
+    <!-- Main JavaScript File -->
+    <script type="module" src="./src/main.js"></script>
   </body>
 </html>
