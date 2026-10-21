@@ -1,1 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CardGallery - Curated MTG Commander Decks</title>
+    <link rel="stylesheet" href="./src/styles/main.css" />
+  </head>
+  <body>
+    <!-- Shared Navigation Header -->
+    <header class="site-header">
+      <div class="container navbar">
+        <a href="./index.html" class="brand-logo">
+          <span class="brand-icon">CG</span>
+          CardGallery
+        </a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="./index.html" class="nav-link active">Home</a></li>
+            <li><a href="./about.html" class="nav-link">About</a></li>
+            <li><a href="./store.html" class="nav-link">Store</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
 
+    <!-- Main Content -->
+    <main class="main-content">
+      <!-- Hero Banner -->
+      <section class="hero-section">
+        <div class="container">
+          <span class="hero-badge">Curated Deck Collection</span>
+          <h1 class="hero-title">
+            Welcome to <span class="highlight">CardGallery</span>
+          </h1>
+          <p class="hero-subtitle">
+            A premier digital gallery and showcase dedicated to custom-built
+            Magic: The Gathering Commander decks, card art, and deckbuilding
+            craftsmanship.
+          </p>
+          <div class="hero-actions">
+            <a href="./store.html" class="btn btn-primary"
+              >Explore Card Catalog</a
+            >
+            <a href="./about.html" class="btn btn-outline"
+              >About Our Collection</a
+            >
+          </div>
+          <!-- Hero Placeholder Image (1200x480) -->
+          <div class="hero-image-wrap">
+            <svg
+              class="placeholder-svg"
+              width="1200"
+              height="480"
+              viewBox="0 0 1200 480"
+              xmlns="http://www.w3.org/2000/svg"
+              role="img"
+              aria-label="PLACEHOLDER IMAGE"
+            >
+              <rect width="100%" height="100%" fill="#141414" />
+              <rect
+                x="20"
+                y="20"
+                width="1160"
+                height="440"
+                fill="none"
+                stroke="#2a2a2a"
+                stroke-width="2"
+                stroke-dasharray="6,6"
+              />
+              <text
+                x="50%"
+                y="50%"
+                fill="#888888"
+                font-family="'Fragment Mono', monospace"
+                font-size="24"
+                font-weight="bold"
+                letter-spacing="5"
+                dominant-baseline="middle"
+                text-anchor="middle"
+              >
+                PLACEHOLDER IMAGE
+              </text>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- Store Introduction -->
+      <section class="section intro-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">The Art of Commander Deckbuilding</h2>
+            <p class="section-subtitle">
+              CardGallery is designed to document and exhibit complete 100-card
+              singleton decks. We treat every decklist not just as a game piece,
+              but as a cohesive artistic theme with unique political dynamics,
+              synergies, and card interactions.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Collection: Kenrith's Group Hug -->
+      <section class="section featured-collection-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Featured Collection</h2>
+            <p class="section-subtitle">
+              Spotlighting our premier 100-card multiplayer deck.
+            </p>
+          </div>
+
+          <div class="featured-deck-card">
+            <div class="featured-media">
+              <img
+                src="./images/kenrith-the-returned-king.jpg"
+                alt="Kenrith, the Returned King - Commander"
+                class="featured-card-img"
+              />
+            </div>
+            <div class="featured-body">
+              <div class="featured-meta">
+                <span class="badge badge-gold">Featured Deck</span>
+                <span class="badge badge-blue">Commander / EDH</span>
+              </div>
+              <h3 class="featured-title">Kenrith's Group Hug</h3>
+              <p class="featured-desc">
+                Helmed by <em>Kenrith, the Returned King</em>, this 100-card
+                multiplayer deck creates symmetrical board benefits, draws
+                copious amounts of cards for all players, and negotiates table
+                politics until closing out the game through strategic win
+                conditions.
+              </p>
+              <div class="deck-stats-grid">
+                <div class="stat-item">
+                  <div class="stat-val">100</div>
+                  <div class="stat-lbl">Total Cards</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-val">5</div>
+                  <div class="stat-lbl">Colors (WUBRG)</div>
+                </div>
+                <div class="stat-item">
+                  <div class="stat-val">Kenrith</div>
+                  <div class="stat-lbl">Commander</div>
+                </div>
+              </div>
+              <a href="./store.html" class="btn btn-primary"
+                >Browse Kenrith's Group Hug</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Featured Categories / Call to Action -->
+      <section class="section categories-section">
+        <div class="container">
+          <div class="section-header">
+            <h2 class="section-title">Explore by Card Type</h2>
+            <p class="section-subtitle">
+              Browse card components across different categories in the catalog.
+            </p>
+          </div>
+
+          <div class="categories-grid">
+            <a href="./store.html" class="category-card">
+              <div class="category-icon">⚔️</div>
+              <h3 class="category-name">Creatures</h3>
+              <p class="category-count">Nobles, Diplomats & Securitrons</p>
+            </a>
+            <a href="./store.html" class="category-card">
+              <div class="category-icon">⚡</div>
+              <h3 class="category-name">Instants</h3>
+              <p class="category-count">Protections, Swaps & Answers</p>
+            </a>
+            <a href="./store.html" class="category-card">
+              <div class="category-icon">📜</div>
+              <h3 class="category-name">Sorceries</h3>
+              <p class="category-count">Windfalls & Symmetrical Sweepers</p>
+            </a>
+            <a href="./store.html" class="category-card">
+              <div class="category-icon">💎</div>
+              <h3 class="category-name">Artifacts</h3>
+              <p class="category-count">Mana Rocks, Bells & Orreries</p>
+            </a>
+            <a href="./store.html" class="category-card">
+              <div class="category-icon">✨</div>
+              <h3 class="category-name">Enchantments</h3>
+              <p class="category-count">Tithes, Propagandas & Prisons</p>
+            </a>
+            <a href="./store.html" class="category-card">
+              <div class="category-icon">🏔️</div>
+              <h3 class="category-name">Lands</h3>
+              <p class="category-count">Triomes, Shrines & Basics</p>
+            </a>
+          </div>
+
+          <div
+            class="section-cta"
+            style="text-align: center; margin-top: 3.5rem"
+          >
+            <a href="./store.html" class="btn btn-primary"
+              >View Full 100-Card Deck in Store</a
+            >
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Shared Footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a href="./index.html" class="brand-logo">
+              <span class="brand-icon">CG</span>
+              CardGallery
+            </a>
+            <p>
+              Curated Magic: The Gathering deck showcases and archival
+              storefront.
+            </p>
+            <div class="social-links">
+              <a href="#" class="social-link" aria-label="Discord">DC</a>
+              <a href="#" class="social-link" aria-label="Twitter">TW</a>
+              <a href="#" class="social-link" aria-label="GitHub">GH</a>
+            </div>
+          </div>
+
+          <div class="footer-nav">
+            <h4 class="footer-heading">Navigation</h4>
+            <ul class="footer-links">
+              <li><a href="./index.html">Home</a></li>
+              <li><a href="./about.html">About Us</a></li>
+              <li><a href="./store.html">Deck Catalog</a></li>
+            </ul>
+          </div>
+
+          <div class="footer-info">
+            <h4 class="footer-heading">Location & Hours</h4>
+            <ul class="footer-hours-list">
+              <li>
+                <strong>Studio:</strong> 420 E 36th St, Charlotte, NC 28205
+              </li>
+              <li><strong>Phone:</strong> (704) 555-CARD (2273)</li>
+              <li><strong>Mon - Sat:</strong> 10:00 AM - 8:00 PM EST</li>
+              <li><strong>Sunday:</strong> 12:00 PM - 6:00 PM EST</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2026 CardGallery. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
