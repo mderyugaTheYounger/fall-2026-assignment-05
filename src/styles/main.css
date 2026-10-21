@@ -466,27 +466,49 @@ svg {
 /* --- Categories Grid --- */
 .categories-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-columns: 1fr;
   gap: 1.5rem;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+@media (min-width: 600px) {
+  .categories-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 860px) {
+  .categories-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
 
 .category-card {
   background-color: var(--mono-surface);
-  border: 1px solid var(--border-subtle);
+  border: 1px solid var(--border-strong);
   border-radius: var(--radius);
-  padding: 2rem 1.5rem;
+  padding: 2.25rem 1.75rem;
   text-align: center;
   transition: var(--transition);
-  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .category-card:hover {
   background-color: var(--mono-card);
-  border-color: var(--accent-blue);
+  border-color: var(--text-pure);
   transform: translateY(-2px);
 }
 
-.category-card:nth-child(2):hover {
+.category-card:nth-child(1):hover {
+  border-color: var(--accent-blue);
+}
+
+.category-card:nth-child(2):hover,
+.category-card:nth-child(3):hover {
   border-color: var(--accent-red);
 }
 
@@ -494,24 +516,20 @@ svg {
   border-color: var(--accent-green);
 }
 
-.category-icon {
-  font-size: 2.2rem;
-  margin-bottom: 1rem;
-}
-
 .category-name {
   font-family: var(--font-display);
-  font-size: 1.15rem;
+  font-size: 1.3rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  margin-bottom: 0.4rem;
+  margin-bottom: 0.65rem;
   color: var(--text-pure);
 }
 
 .category-count {
-  font-size: 0.85rem;
+  font-size: 0.88rem;
   color: var(--text-muted);
+  line-height: 1.5;
 }
 
 /* --- About Page Styles --- */
@@ -789,7 +807,25 @@ svg {
   color: var(--text-muted);
   line-height: 1.6;
   margin-top: auto;
-  white-space: pre-line;
+}
+
+.product-description p {
+  margin-bottom: 0.45rem;
+}
+
+.product-description p:last-child {
+  margin-bottom: 0;
+}
+
+/* Local MTG Mana & Tap Symbols */
+.mana-symbol {
+  display: inline-block;
+  width: 1.05rem;
+  height: 1.05rem;
+  vertical-align: -0.15em;
+  margin: 0 0.1em;
+  border-radius: 50%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
 }
 
 /* --- Dynamic Client-Side Pagination Controls --- */
