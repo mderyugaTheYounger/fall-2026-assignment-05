@@ -1,1 +1,802 @@
-[]
+[
+  {
+    "id": 1,
+    "name": "Kenrith, the Returned King",
+    "price": 2.93,
+    "category": "Creature",
+    "description": "{R}: All creatures gain trample and haste until end of turn.\n{1}{G}: Put a +1/+1 counter on target creature.\n{2}{W}: Target player gains 5 life.\n{3}{U}: Target player draws a card.\n{4}{B}: Put target creature card from a graveyard onto the battlefield under its owner's control.",
+    "imageUrl": "./images/kenrith-the-returned-king.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Sol Ring",
+    "price": 1.91,
+    "category": "Artifact",
+    "description": "{T}: Add {C}{C}.",
+    "imageUrl": "./images/sol-ring.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Teferi's Protection",
+    "price": 44.21,
+    "category": "Instant",
+    "description": "Until your next turn, your life total can't change and you gain protection from everything. All permanents you control phase out. (While they're phased out, they're treated as though they don't exist. They phase in before you untap during your untap step.)\nExile Teferi's Protection.",
+    "imageUrl": "./images/teferis-protection.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Swords to Plowshares",
+    "price": 1.48,
+    "category": "Instant",
+    "description": "Exile target creature. Its controller gains life equal to its power.",
+    "imageUrl": "./images/swords-to-plowshares.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Counterspell",
+    "price": 4.32,
+    "category": "Instant",
+    "description": "Counter target spell.",
+    "imageUrl": "./images/counterspell.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Worldfire",
+    "price": 35.41,
+    "category": "Sorcery",
+    "description": "Exile all permanents. Exile all cards from all hands and graveyards. Each player's life total becomes 1.",
+    "imageUrl": "./images/worldfire.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Smothering Tithe",
+    "price": 58.28,
+    "category": "Enchantment",
+    "description": "Whenever an opponent draws a card, that player may pay {2}. If the player doesn't, you create a Treasure token. (It's an artifact with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+    "imageUrl": "./images/smothering-tithe.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Ghostly Prison",
+    "price": 6.53,
+    "category": "Enchantment",
+    "description": "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.",
+    "imageUrl": "./images/ghostly-prison.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Kodama's Reach",
+    "price": 2.18,
+    "category": "Sorcery",
+    "description": "Search your library for up to two basic land cards, reveal those cards, put one onto the battlefield tapped and the other into your hand, then shuffle.",
+    "imageUrl": "./images/kodamas-reach.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Farseek",
+    "price": 1.44,
+    "category": "Sorcery",
+    "description": "Search your library for a Plains, Island, Swamp, or Mountain card, put it onto the battlefield tapped, then shuffle.",
+    "imageUrl": "./images/farseek.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Command Tower",
+    "price": 0.42,
+    "category": "Land",
+    "description": "{T}: Add one mana of any color in your commander's color identity.",
+    "imageUrl": "./images/command-tower.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Exotic Orchard",
+    "price": 0.25,
+    "category": "Land",
+    "description": "{T}: Add one mana of any color that a land an opponent controls could produce.",
+    "imageUrl": "./images/exotic-orchard.jpg"
+  },
+  {
+    "id": 13,
+    "name": "Hallowed Fountain",
+    "price": 0.25,
+    "category": "Land",
+    "description": "({T}: Add {W} or {U}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+    "imageUrl": "./images/hallowed-fountain.jpg"
+  },
+  {
+    "id": 14,
+    "name": "Temple Garden",
+    "price": 0.25,
+    "category": "Land",
+    "description": "({T}: Add {G} or {W}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+    "imageUrl": "./images/temple-garden.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Godless Shrine",
+    "price": 0.25,
+    "category": "Land",
+    "description": "({T}: Add {W} or {B}.)\nAs this land enters, you may pay 2 life. If you don't, it enters tapped.",
+    "imageUrl": "./images/godless-shrine.jpg"
+  },
+  {
+    "id": 16,
+    "name": "Reliquary Tower",
+    "price": 4.95,
+    "category": "Land",
+    "description": "You have no maximum hand size.\n{T}: Add {C}.",
+    "imageUrl": "./images/reliquary-tower.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Indatha Triome",
+    "price": 17.0,
+    "category": "Land",
+    "description": "({T}: Add {W}, {B}, or {G}.)\nThis land enters tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+    "imageUrl": "./images/indatha-triome.jpg"
+  },
+  {
+    "id": 18,
+    "name": "Ketria Triome",
+    "price": 16.55,
+    "category": "Land",
+    "description": "({T}: Add {G}, {U}, or {R}.)\nThis land enters tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+    "imageUrl": "./images/ketria-triome.jpg"
+  },
+  {
+    "id": 19,
+    "name": "Zagoth Triome",
+    "price": 20.26,
+    "category": "Land",
+    "description": "({T}: Add {B}, {G}, or {U}.)\nThis land enters tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+    "imageUrl": "./images/zagoth-triome.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Forbidden Orchard",
+    "price": 10.17,
+    "category": "Land",
+    "description": "{T}: Add one mana of any color.\nWhenever you tap this land for mana, target opponent creates a 1/1 colorless Spirit creature token.",
+    "imageUrl": "./images/forbidden-orchard.jpg"
+  },
+  {
+    "id": 21,
+    "name": "Savai Triome",
+    "price": 19.12,
+    "category": "Land",
+    "description": "({T}: Add {R}, {W}, or {B}.)\nThis land enters tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+    "imageUrl": "./images/savai-triome.jpg"
+  },
+  {
+    "id": 22,
+    "name": "Raugrin Triome",
+    "price": 16.18,
+    "category": "Land",
+    "description": "({T}: Add {U}, {R}, or {W}.)\nThis land enters tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+    "imageUrl": "./images/raugrin-triome.jpg"
+  },
+  {
+    "id": 23,
+    "name": "Fabled Passage",
+    "price": 1.06,
+    "category": "Land",
+    "description": "{T}, Sacrifice this land: Search your library for a basic land card, put it onto the battlefield tapped, then shuffle. Then if you control four or more lands, untap that land.",
+    "imageUrl": "./images/fabled-passage.jpg"
+  },
+  {
+    "id": 24,
+    "name": "Spara's Headquarters",
+    "price": 13.8,
+    "category": "Land",
+    "description": "({T}: Add {G}, {W}, or {U}.)\nThis land enters tapped.\nCycling {3} ({3}, Discard this card: Draw a card.)",
+    "imageUrl": "./images/sparas-headquarters.jpg"
+  },
+  {
+    "id": 25,
+    "name": "Master of Ceremonies",
+    "price": 16.21,
+    "category": "Creature",
+    "description": "At the beginning of your upkeep, each opponent chooses money, friends, or secrets. For each player who chose money, you and that player each create a Treasure token. For each player who chose friends, you and that player each create a 1/1 green and white Citizen creature token. For each player who chose secrets, you and that player each draw a card.",
+    "imageUrl": "./images/master-of-ceremonies.jpg"
+  },
+  {
+    "id": 26,
+    "name": "False Cure",
+    "price": 10.08,
+    "category": "Instant",
+    "description": "Until end of turn, whenever a player gains life, that player loses 2 life for each 1 life they gained.",
+    "imageUrl": "./images/false-cure.jpg"
+  },
+  {
+    "id": 27,
+    "name": "Temple Bell",
+    "price": 6.83,
+    "category": "Artifact",
+    "description": "{T}: Each player draws a card.",
+    "imageUrl": "./images/temple-bell.jpg"
+  },
+  {
+    "id": 28,
+    "name": "Heartwood Storyteller",
+    "price": 4.59,
+    "category": "Creature",
+    "description": "Whenever a player casts a noncreature spell, each of that player's opponents may draw a card.",
+    "imageUrl": "./images/heartwood-storyteller.jpg"
+  },
+  {
+    "id": 29,
+    "name": "Noble Heritage",
+    "price": 0.44,
+    "category": "Enchantment",
+    "description": "Commander creatures you own have \"When this creature enters and at the beginning of your upkeep, each player may put two +1/+1 counters on a creature they control. For each opponent who does, you gain protection from that player until your next turn.\" (You can't be targeted, dealt damage, or enchanted by anything controlled by that player.)",
+    "imageUrl": "./images/noble-heritage.jpg"
+  },
+  {
+    "id": 30,
+    "name": "Gluntch, the Bestower",
+    "price": 0.5,
+    "category": "Creature",
+    "description": "Flying\nAt the beginning of your end step, choose a player. They put two +1/+1 counters on a creature they control. Choose a second player to draw a card. Then choose a third player to create two Treasure tokens.",
+    "imageUrl": "./images/gluntch-the-bestower.jpg"
+  },
+  {
+    "id": 31,
+    "name": "Tempt with Discovery",
+    "price": 2.71,
+    "category": "Sorcery",
+    "description": "Tempting offer — Search your library for a land card and put it onto the battlefield. Each opponent may search their library for a land card and put it onto the battlefield. For each opponent who searches a library this way, search your library for a land card and put it onto the battlefield. Then each player who searched a library this way shuffles.",
+    "imageUrl": "./images/tempt-with-discovery.jpg"
+  },
+  {
+    "id": 32,
+    "name": "Tempt with Bunnies",
+    "price": 0.25,
+    "category": "Sorcery",
+    "description": "Tempting Offer — Draw a card and create a 1/1 white Rabbit creature token. Then each opponent may draw a card and create a 1/1 white Rabbit creature token. For each opponent who does, you draw a card and you create a 1/1 white Rabbit creature token.",
+    "imageUrl": "./images/tempt-with-bunnies.jpg"
+  },
+  {
+    "id": 33,
+    "name": "Tempt with Vengeance",
+    "price": 0.39,
+    "category": "Sorcery",
+    "description": "Tempting offer — Create X 1/1 red Elemental creature tokens with haste. Each opponent may create X 1/1 red Elemental creature tokens with haste. For each opponent who does, create X 1/1 red Elemental creature tokens with haste.",
+    "imageUrl": "./images/tempt-with-vengeance.jpg"
+  },
+  {
+    "id": 34,
+    "name": "Tempt with Mayhem",
+    "price": 1.18,
+    "category": "Instant",
+    "description": "Tempting offer — Choose target instant or sorcery spell. Each opponent may copy that spell and may choose new targets for the copy they control. You copy that spell once plus an additional time for each opponent who copied the spell this way. You may choose new targets for the copies you control.",
+    "imageUrl": "./images/tempt-with-mayhem.jpg"
+  },
+  {
+    "id": 35,
+    "name": "Tempt with Reflections",
+    "price": 2.18,
+    "category": "Sorcery",
+    "description": "Tempting offer — Choose target creature you control. Create a token that's a copy of that creature. Each opponent may create a token that's a copy of that creature. For each opponent who does, create a token that's a copy of that creature.",
+    "imageUrl": "./images/tempt-with-reflections.jpg"
+  },
+  {
+    "id": 36,
+    "name": "Tempt with Immortality",
+    "price": 1.57,
+    "category": "Sorcery",
+    "description": "Tempting offer — Return a creature card from your graveyard to the battlefield. Each opponent may return a creature card from their graveyard to the battlefield. For each opponent who does, return a creature card from your graveyard to the battlefield.",
+    "imageUrl": "./images/tempt-with-immortality.jpg"
+  },
+  {
+    "id": 37,
+    "name": "Tempt with Glory",
+    "price": 0.35,
+    "category": "Sorcery",
+    "description": "Tempting offer — Put a +1/+1 counter on each creature you control. Each opponent may put a +1/+1 counter on each creature they control. For each opponent who does, put a +1/+1 counter on each creature you control.",
+    "imageUrl": "./images/tempt-with-glory.jpg"
+  },
+  {
+    "id": 38,
+    "name": "Sylvan Library",
+    "price": 28.08,
+    "category": "Enchantment",
+    "description": "At the beginning of your draw step, you may draw two additional cards. If you do, choose two cards in your hand drawn this turn. For each of those cards, pay 4 life or put the card on top of your library.",
+    "imageUrl": "./images/sylvan-library.jpg"
+  },
+  {
+    "id": 39,
+    "name": "Benevolent Offering",
+    "price": 1.75,
+    "category": "Instant",
+    "description": "Choose an opponent. You and that player each create three 1/1 white Spirit creature tokens with flying.\nChoose an opponent. You gain 2 life for each creature you control and that player gains 2 life for each creature they control.",
+    "imageUrl": "./images/benevolent-offering.jpg"
+  },
+  {
+    "id": 40,
+    "name": "Intellectual Offering",
+    "price": 0.32,
+    "category": "Instant",
+    "description": "Choose an opponent. You and that player each draw three cards.\nChoose an opponent. Untap all nonland permanents you control and all nonland permanents that player controls.",
+    "imageUrl": "./images/intellectual-offering.jpg"
+  },
+  {
+    "id": 41,
+    "name": "Propaganda",
+    "price": 2.18,
+    "category": "Enchantment",
+    "description": "Creatures can't attack you unless their controller pays {2} for each creature they control that's attacking you.",
+    "imageUrl": "./images/propaganda.jpg"
+  },
+  {
+    "id": 42,
+    "name": "Reparations",
+    "price": 4.7,
+    "category": "Enchantment",
+    "description": "Whenever an opponent casts a spell that targets you or a creature you control, you may draw a card.",
+    "imageUrl": "./images/reparations.jpg"
+  },
+  {
+    "id": 43,
+    "name": "Pongify",
+    "price": 2.88,
+    "category": "Instant",
+    "description": "Destroy target creature. It can't be regenerated. Its controller creates a 3/3 green Ape creature token.",
+    "imageUrl": "./images/pongify.jpg"
+  },
+  {
+    "id": 44,
+    "name": "Split Decision",
+    "price": 1.99,
+    "category": "Instant",
+    "description": "Will of the council — Choose target instant or sorcery spell. Starting with you, each player votes for denial or duplication. If denial gets more votes, counter the spell. If duplication gets more votes or the vote is tied, copy the spell. You may choose new targets for the copy.",
+    "imageUrl": "./images/split-decision.jpg"
+  },
+  {
+    "id": 45,
+    "name": "An Offer You Can't Refuse",
+    "price": 3.96,
+    "category": "Instant",
+    "description": "Counter target noncreature spell. Its controller creates two Treasure tokens. (They're artifacts with \"{T}, Sacrifice this token: Add one mana of any color.\")",
+    "imageUrl": "./images/an-offer-you-cant-refuse.jpg"
+  },
+  {
+    "id": 46,
+    "name": "Forced Fruition",
+    "price": 10.08,
+    "category": "Enchantment",
+    "description": "Whenever an opponent casts a spell, that player draws seven cards.",
+    "imageUrl": "./images/forced-fruition.jpg"
+  },
+  {
+    "id": 47,
+    "name": "Folio of Fancies",
+    "price": 2.51,
+    "category": "Artifact",
+    "description": "Players have no maximum hand size.\n{X}{X}, {T}: Each player draws X cards.\n{2}{U}, {T}: Each opponent mills cards equal to the number of cards in their hand.",
+    "imageUrl": "./images/folio-of-fancies.jpg"
+  },
+  {
+    "id": 48,
+    "name": "Windfall",
+    "price": 6.06,
+    "category": "Sorcery",
+    "description": "Each player discards their hand, then draws cards equal to the greatest number of cards a player discarded this way.",
+    "imageUrl": "./images/windfall.jpg"
+  },
+  {
+    "id": 49,
+    "name": "Replication Technique",
+    "price": 0.24,
+    "category": "Sorcery",
+    "description": "Demonstrate (When you cast this spell, you may copy it. If you do, choose an opponent to also copy it. Players may choose new targets for their copies.)\nCreate a token that's a copy of target permanent you control.",
+    "imageUrl": "./images/replication-technique.jpg"
+  },
+  {
+    "id": 50,
+    "name": "Tainted Remedy",
+    "price": 7.82,
+    "category": "Enchantment",
+    "description": "If an opponent would gain life, that player loses that much life instead.",
+    "imageUrl": "./images/tainted-remedy.jpg"
+  },
+  {
+    "id": 51,
+    "name": "Beacon of Immortality",
+    "price": 15.28,
+    "category": "Instant",
+    "description": "Double target player's life total. Shuffle Beacon of Immortality into its owner's library.",
+    "imageUrl": "./images/beacon-of-immortality.jpg"
+  },
+  {
+    "id": 52,
+    "name": "Ghirapur Orrery",
+    "price": 0.37,
+    "category": "Artifact",
+    "description": "Each player may play an additional land on each of their turns.\nAt the beginning of each player's upkeep, if that player has no cards in hand, that player draws three cards.",
+    "imageUrl": "./images/ghirapur-orrery.jpg"
+  },
+  {
+    "id": 53,
+    "name": "Exquisite Blood",
+    "price": 40.12,
+    "category": "Enchantment",
+    "description": "Whenever an opponent loses life, you gain that much life.",
+    "imageUrl": "./images/exquisite-blood.jpg"
+  },
+  {
+    "id": 54,
+    "name": "Rainbow Vale",
+    "price": 0.25,
+    "category": "Land",
+    "description": "{T}: Add one mana of any color. An opponent gains control of this land at the beginning of the next end step.",
+    "imageUrl": "./images/rainbow-vale.jpg"
+  },
+  {
+    "id": 55,
+    "name": "Dakra Mystic",
+    "price": 0.23,
+    "category": "Creature",
+    "description": "{U}, {T}: Each player reveals the top card of their library. You may put the revealed cards into their owners' graveyards. If you don't, each player draws a card.",
+    "imageUrl": "./images/dakra-mystic.jpg"
+  },
+  {
+    "id": 56,
+    "name": "Awakening",
+    "price": 6.89,
+    "category": "Enchantment",
+    "description": "At the beginning of each upkeep, untap all creatures and lands.",
+    "imageUrl": "./images/awakening.jpg"
+  },
+  {
+    "id": 57,
+    "name": "Chaos Warp",
+    "price": 0.25,
+    "category": "Instant",
+    "description": "The owner of target permanent shuffles it into their library, then reveals the top card of their library. If it's a permanent card, they put it onto the battlefield.",
+    "imageUrl": "./images/chaos-warp.jpg"
+  },
+  {
+    "id": 58,
+    "name": "Dance with Calamity",
+    "price": 0.29,
+    "category": "Sorcery",
+    "description": "Shuffle your library. As many times as you choose, you may exile the top card of your library. If the total mana value of the cards exiled this way is 13 or less, you may cast any number of spells from among those cards without paying their mana costs.",
+    "imageUrl": "./images/dance-with-calamity.jpg"
+  },
+  {
+    "id": 59,
+    "name": "Pyxis of Pandemonium",
+    "price": 0.28,
+    "category": "Artifact",
+    "description": "{T}: Each player exiles the top card of their library face down.\n{7}, {T}, Sacrifice this artifact: Each player turns face up all cards they own exiled with this artifact, then puts all permanent cards among them onto the battlefield.",
+    "imageUrl": "./images/pyxis-of-pandemonium.jpg"
+  },
+  {
+    "id": 60,
+    "name": "Jace Beleren",
+    "price": 3.04,
+    "category": "Planeswalker",
+    "description": "+2: Each player draws a card.\n−1: Target player draws a card.\n−10: Target player mills twenty cards.",
+    "imageUrl": "./images/jace-beleren.jpg"
+  },
+  {
+    "id": 61,
+    "name": "Thieves' Auction",
+    "price": 4.2,
+    "category": "Sorcery",
+    "description": "Exile all nontoken permanents. Starting with you, each player chooses one of the exiled cards and puts it onto the battlefield tapped under their control. Repeat this process until all cards exiled this way have been chosen.",
+    "imageUrl": "./images/thieves-auction.jpg"
+  },
+  {
+    "id": 62,
+    "name": "Yurlok of Scorch Thrash",
+    "price": 0.44,
+    "category": "Creature",
+    "description": "Vigilance\nA player losing unspent mana causes that player to lose that much life.\n{1}, {T}: Each player adds {B}{R}{G}.",
+    "imageUrl": "./images/yurlok-of-scorch-thrash.jpg"
+  },
+  {
+    "id": 63,
+    "name": "Plains",
+    "price": 0.25,
+    "category": "Land",
+    "description": "({T}: Add {W}.)",
+    "imageUrl": "./images/plains.jpg"
+  },
+  {
+    "id": 64,
+    "name": "Plains",
+    "price": 0.25,
+    "category": "Land",
+    "description": "({T}: Add {W}.)",
+    "imageUrl": "./images/plains.jpg"
+  },
+  {
+    "id": 65,
+    "name": "Plains",
+    "price": 0.25,
+    "category": "Land",
+    "description": "({T}: Add {W}.)",
+    "imageUrl": "./images/plains.jpg"
+  },
+  {
+    "id": 66,
+    "name": "Island",
+    "price": 0.25,
+    "category": "Land",
+    "description": "({T}: Add {U}.)",
+    "imageUrl": "./images/island.jpg"
+  },
+  {
+    "id": 67,
+    "name": "Island",
+    "price": 0.25,
+    "category": "Land",
+    "description": "({T}: Add {U}.)",
+    "imageUrl": "./images/island.jpg"
+  },
+  {
+    "id": 68,
+    "name": "Island",
+    "price": 0.25,
+    "category": "Land",
+    "description": "({T}: Add {U}.)",
+    "imageUrl": "./images/island.jpg"
+  },
+  {
+    "id": 69,
+    "name": "Island",
+    "price": 0.25,
+    "category": "Land",
+    "description": "({T}: Add {U}.)",
+    "imageUrl": "./images/island.jpg"
+  },
+  {
+    "id": 70,
+    "name": "Swamp",
+    "price": 0.25,
+    "category": "Land",
+    "description": "({T}: Add {B}.)",
+    "imageUrl": "./images/swamp.jpg"
+  },
+  {
+    "id": 71,
+    "name": "Mountain",
+    "price": 0.25,
+    "category": "Land",
+    "description": "({T}: Add {R}.)",
+    "imageUrl": "./images/mountain.jpg"
+  },
+  {
+    "id": 72,
+    "name": "Mountain",
+    "price": 0.25,
+    "category": "Land",
+    "description": "({T}: Add {R}.)",
+    "imageUrl": "./images/mountain.jpg"
+  },
+  {
+    "id": 73,
+    "name": "Mountain",
+    "price": 0.25,
+    "category": "Land",
+    "description": "({T}: Add {R}.)",
+    "imageUrl": "./images/mountain.jpg"
+  },
+  {
+    "id": 74,
+    "name": "Forest",
+    "price": 0.25,
+    "category": "Land",
+    "description": "({T}: Add {G}.)",
+    "imageUrl": "./images/forest.jpg"
+  },
+  {
+    "id": 75,
+    "name": "Forest",
+    "price": 0.25,
+    "category": "Land",
+    "description": "({T}: Add {G}.)",
+    "imageUrl": "./images/forest.jpg"
+  },
+  {
+    "id": 76,
+    "name": "Forest",
+    "price": 0.25,
+    "category": "Land",
+    "description": "({T}: Add {G}.)",
+    "imageUrl": "./images/forest.jpg"
+  },
+  {
+    "id": 77,
+    "name": "Flawless Maneuver",
+    "price": 8.69,
+    "category": "Instant",
+    "description": "If you control a commander, you may cast this spell without paying its mana cost.\nCreatures you control gain indestructible until end of turn.",
+    "imageUrl": "./images/flawless-maneuver.jpg"
+  },
+  {
+    "id": 78,
+    "name": "Dawn's Truce",
+    "price": 9.29,
+    "category": "Instant",
+    "description": "Gift a card (You may promise an opponent a gift as you cast this spell. If you do, they draw a card before its other effects.)\nYou and permanents you control gain hexproof until end of turn. If the gift was promised, permanents you control also gain indestructible until end of turn.",
+    "imageUrl": "./images/dawns-truce.jpg"
+  },
+  {
+    "id": 79,
+    "name": "Beast Within",
+    "price": 1.2,
+    "category": "Instant",
+    "description": "Destroy target permanent. Its controller creates a 3/3 green Beast creature token.",
+    "imageUrl": "./images/beast-within.jpg"
+  },
+  {
+    "id": 80,
+    "name": "Generous Gift",
+    "price": 1.23,
+    "category": "Instant",
+    "description": "Destroy target permanent. Its controller creates a 3/3 green Elephant creature token.",
+    "imageUrl": "./images/generous-gift.jpg"
+  },
+  {
+    "id": 81,
+    "name": "Path to Exile",
+    "price": 1.38,
+    "category": "Instant",
+    "description": "Exile target creature. Its controller may search their library for a basic land card, put that card onto the battlefield tapped, then shuffle.",
+    "imageUrl": "./images/path-to-exile.jpg"
+  },
+  {
+    "id": 82,
+    "name": "Turbulent Fen",
+    "price": 8.01,
+    "category": "Land",
+    "description": "({T}: Add {B} or {G}.)\nThis land enters tapped unless your opponents control eight or more lands.",
+    "imageUrl": "./images/turbulent-fen.jpg"
+  },
+  {
+    "id": 83,
+    "name": "Turbulent Springs",
+    "price": 5.46,
+    "category": "Land",
+    "description": "({T}: Add {U} or {R}.)\nThis land enters tapped unless your opponents control eight or more lands.",
+    "imageUrl": "./images/turbulent-springs.jpg"
+  },
+  {
+    "id": 84,
+    "name": "Turbulent Moor",
+    "price": 7.12,
+    "category": "Land",
+    "description": "({T}: Add {W} or {B}.)\nThis land enters tapped unless your opponents control eight or more lands.",
+    "imageUrl": "./images/turbulent-moor.jpg"
+  },
+  {
+    "id": 85,
+    "name": "Turbulent Steppe",
+    "price": 6.7,
+    "category": "Land",
+    "description": "({T}: Add {R} or {W}.)\nThis land enters tapped unless your opponents control eight or more lands.",
+    "imageUrl": "./images/turbulent-steppe.jpg"
+  },
+  {
+    "id": 86,
+    "name": "Turbulent Wilderness",
+    "price": 6.35,
+    "category": "Land",
+    "description": "({T}: Add {G} or {U}.)\nThis land enters tapped unless your opponents control eight or more lands.",
+    "imageUrl": "./images/turbulent-wilderness.jpg"
+  },
+  {
+    "id": 87,
+    "name": "Turbulent Shore",
+    "price": 2.99,
+    "category": "Land",
+    "description": "({T}: Add {W} or {U}.)\nThis land enters tapped unless your opponents control eight or more lands.",
+    "imageUrl": "./images/turbulent-shore.jpg"
+  },
+  {
+    "id": 88,
+    "name": "Turbulent Wetlands",
+    "price": 3.24,
+    "category": "Land",
+    "description": "({T}: Add {U} or {B}.)\nThis land enters tapped unless your opponents control eight or more lands.",
+    "imageUrl": "./images/turbulent-wetlands.jpg"
+  },
+  {
+    "id": 89,
+    "name": "Turbulent Crater",
+    "price": 2.56,
+    "category": "Land",
+    "description": "({T}: Add {B} or {R}.)\nThis land enters tapped unless your opponents control eight or more lands.",
+    "imageUrl": "./images/turbulent-crater.jpg"
+  },
+  {
+    "id": 90,
+    "name": "Kwain, Itinerant Meddler",
+    "price": 0.42,
+    "category": "Creature",
+    "description": "{T}: Each player may draw a card, then each player who drew a card this way gains 1 life.",
+    "imageUrl": "./images/kwain-itinerant-meddler.jpg"
+  },
+  {
+    "id": 91,
+    "name": "Heartbeat of Spring",
+    "price": 4.36,
+    "category": "Enchantment",
+    "description": "Whenever a player taps a land for mana, that player adds one mana of any type that land produced.",
+    "imageUrl": "./images/heartbeat-of-spring.jpg"
+  },
+  {
+    "id": 92,
+    "name": "Noble Benefactor",
+    "price": 0.39,
+    "category": "Creature",
+    "description": "When this creature dies, each player may search their library for a card and put that card into their hand. Then each player who searched their library this way shuffles.",
+    "imageUrl": "./images/noble-benefactor.jpg"
+  },
+  {
+    "id": 93,
+    "name": "Words of Wisdom",
+    "price": 0.73,
+    "category": "Instant",
+    "description": "You draw two cards, then each other player draws a card.",
+    "imageUrl": "./images/words-of-wisdom.jpg"
+  },
+  {
+    "id": 94,
+    "name": "Well of Ideas",
+    "price": 2.32,
+    "category": "Enchantment",
+    "description": "When this enchantment enters, draw two cards.\nAt the beginning of each other player's draw step, that player draws an additional card.\nAt the beginning of your draw step, draw two additional cards.",
+    "imageUrl": "./images/well-of-ideas.jpg"
+  },
+  {
+    "id": 95,
+    "name": "Humble Defector",
+    "price": 0.33,
+    "category": "Creature",
+    "description": "{T}: Draw two cards. Target opponent gains control of this creature. Activate only during your turn.",
+    "imageUrl": "./images/humble-defector.jpg"
+  },
+  {
+    "id": 96,
+    "name": "Kynaios and Tiro of Meletis",
+    "price": 9.11,
+    "category": "Creature",
+    "description": "At the beginning of your end step, draw a card. Each player may put a land card from their hand onto the battlefield, then each opponent who didn't draws a card.",
+    "imageUrl": "./images/kynaios-and-tiro-of-meletis.jpg"
+  },
+  {
+    "id": 97,
+    "name": "Tidal Barracuda",
+    "price": 7.78,
+    "category": "Creature",
+    "description": "Any player may cast spells as though they had flash.\nYour opponents can't cast spells during your turn.",
+    "imageUrl": "./images/tidal-barracuda.jpg"
+  },
+  {
+    "id": 98,
+    "name": "Yes Man, Personal Securitron",
+    "price": 1.59,
+    "category": "Artifact Creature",
+    "description": "{T}: Target opponent gains control of Yes Man. When they do, you draw two cards and put a quest counter on Yes Man. Activate only during your turn.\nWild Card — When Yes Man leaves the battlefield, its owner creates a tapped 1/1 white Soldier creature token for each quest counter on it.",
+    "imageUrl": "./images/yes-man-personal-securitron.jpg"
+  },
+  {
+    "id": 99,
+    "name": "Xantcha, Sleeper Agent",
+    "price": 2.13,
+    "category": "Creature",
+    "description": "Xantcha enters under the control of an opponent of your choice.\nXantcha attacks each combat if able and can't attack its owner or planeswalkers its owner controls.\n{3}: Xantcha's controller loses 2 life and you draw a card. Any player may activate this ability.",
+    "imageUrl": "./images/xantcha-sleeper-agent.jpg"
+  },
+  {
+    "id": 100,
+    "name": "Naked Singularity",
+    "price": 0.25,
+    "category": "Artifact",
+    "description": "Cumulative upkeep {3} (At the beginning of your upkeep, put an age counter on this permanent, then sacrifice it unless you pay its upkeep cost for each age counter on it.)\nIf tapped for mana, Plains produce {R}, Islands produce {G}, Swamps produce {W}, Mountains produce {U}, and Forests produce {B} instead of any other type.",
+    "imageUrl": "./images/naked-singularity.jpg"
+  }
+]
